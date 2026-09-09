@@ -64,8 +64,6 @@ shapes a listener's first impression before they've heard the track.
 ├── data/
 │   └── README.md                # Dataset source and setup instructions
 ├── results/                     # Output figures referenced above
-├── writeup/
-│   └── investigation_writeup.pdf   # Full write-up (methodology, related work, discussion)
 └── requirements.txt
 ```
 
@@ -95,8 +93,6 @@ their original form (including commented-out attempts) rather than cleaned up:
 4. **Evaluation:** MSE/R² and learning curves for the regressor; confusion matrix and
    per-class precision/recall/F1 for the classifier, including a class-balancing pass
    to correct for the underrepresented "High popularity" tier.
-
-Full detail, related work, and discussion are in [`writeup/investigation_writeup.pdf`](writeup/investigation_writeup.pdf).
 
 ## Setup
 
